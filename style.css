@@ -5,13 +5,13 @@
 
 :root{
     --cor-primaria: #1d1c1c;
-  
+    --fonte-primaria: sans-serif;
 }
 
 
 body{
     display: block;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
     z-index: 1;
 }
@@ -31,7 +31,7 @@ body::before{
     position: relative;
     z-index: 1;
 }
-.container-inicio{
+.container-inicial{
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -97,4 +97,10 @@ body::before{
     position: relative;
     z-index: 1;
     padding-right: 13vh;
+}
+
+.container-products{
+    display: flex;
+    position: relative;
+    z-index: 1;
 }
