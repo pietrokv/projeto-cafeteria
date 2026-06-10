@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 5px;
+    padding: 0px;
 }
 
 :root{
@@ -9,16 +9,18 @@
 }
 
 
-body{
+
+
+.fundo-wrapper{
     display: block;
     overflow-x: hidden;
     position: relative;
     z-index: 1;
 }
 
-body::before{
+.fundo-wrapper::before{
     content: '';
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -101,6 +103,14 @@ body::before{
 
 .container-products{
     display: flex;
-    position: relative;
-    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px ;
+}
+
+.container-embalagens{
+    display: flex;
+    scale: 50%;
+    
 }
