@@ -88,6 +88,7 @@ body{
     display: flex;
     height: 100%;
     align-items: center;
+    background-color: var(--cor-secundaria);
 }
 
 .header-content{
@@ -157,5 +158,4 @@ body{
    color: var(--cor-secundaria);
    padding: 25px;
    gap: 15px;
-   font-family:;
 }
