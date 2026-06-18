@@ -159,3 +159,20 @@ body{
    padding: 25px;
    gap: 15px;
 }
+
+.container-preparo{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.descricao-preparo{
+    display: flex;
+    width: 90vh;
+    justify-content: space-between;
+    gap: 100px;
+    font-size:x-large;
+    padding: ;
+}
